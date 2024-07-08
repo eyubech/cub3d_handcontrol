@@ -1,4 +1,4 @@
-# Cub3D Project - README
+# Cub3D Controled by hand Project - README
 
 ## Overview
 
@@ -16,9 +16,9 @@ Configurable Key Bindings: Customizes actions for different finger counts, allow
 
 ## Technologies Used
 
-OpenCV: An open-source computer vision library used for image processing, capturing video frames, and detecting hand gestures.
-NumPy: A library for numerical operations, used here for calculations related to finger counting.
-xdotool: A Linux command-line tool for simulating keyboard and mouse input, used to automate key presses based on detected gestures.
+- OpenCV: An open-source computer vision library used for image processing, capturing video frames, and detecting hand gestures.
+- NumPy: A library for numerical operations, used here for calculations related to finger counting.
+- xdotool: A Linux command-line tool for simulating keyboard and mouse input, used to automate key presses based on detected gestures.
 
 ## Installation and Setup
 ### Prerequisites
@@ -78,24 +78,7 @@ Create a new Pull Request.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-##  Pictures
-
-### Start game
-[
-![Screenshot from 2024-06-21 23-06-18](https://github.com/eyubech/cub3d/assets/76597998/ce7b05cc-c3dd-42fc-812f-a45421fdc76e)
-](url)
-
-#### Pause
-[
-![Screenshot from 2024-06-21 23-06-29](https://github.com/eyubech/cub3d/assets/76597998/f986fe56-a572-4768-8bac-10c644dfc9de)
-](url)
-
-
-#### Hide Map
-[
-![Screenshot from 2024-06-21 23-06-38](https://github.com/eyubech/cub3d/assets/76597998/60bd90a1-f7e2-4d45-b736-f16e038918c3)
-](url)
-
+## View
 
 
 
