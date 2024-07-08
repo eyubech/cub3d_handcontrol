@@ -2,7 +2,6 @@ import os
 import cv2
 import numpy as np
 
-
 def count_fingers_and_draw(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     blurred = cv2.GaussianBlur(gray, (35, 35), 0)
@@ -15,7 +14,6 @@ def count_fingers_and_draw(img):
     if defects is None:
         return 1, img
     finger_count = 0
-    
     for i in range(defects.shape[0]):
         s, e, f, d = defects[i, 0]
         start = tuple(contour[s][0])
@@ -35,7 +33,6 @@ def count_fingers_and_draw(img):
             cv2.line(img, end, far, [0, 255, 0], 2)
             cv2.circle(img, far, 5, [0, 0, 255], -1)
     return finger_count + 1, img
-
 def main():
     cap = cv2.VideoCapture(0)
     
@@ -66,7 +63,6 @@ def main():
         cv2.imshow('Finger Counter', small_frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
-    
     cap.release()
     cv2.destroyAllWindows()
 
