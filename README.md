@@ -82,7 +82,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 ## View
-
+[
+![20240709_001504](https://github.com/eyubech/cub3d_handcontrol/assets/76597998/88fb8d21-27b8-4206-bf24-a3c0c7fdfaaf)
+](url)
 
 
 
