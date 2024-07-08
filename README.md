@@ -1,5 +1,8 @@
 # Cub3D Controled by hand Project - README
 
+[
+![VideoCapture_20240709-000446](https://github.com/eyubech/cub3d_handcontrol/assets/76597998/c4e263ca-6481-4586-a1f7-0bf34d3c0bc2)
+](url)
 ## Overview
 
 
